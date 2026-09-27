@@ -1,0 +1,39 @@
+generated: 2026-09-27
+method: probed
+source: https://www.avreo.com/CustomerSupport/PrivacyPolicy.html
+signals:
+  data_subject_request:
+    - evidence:
+        - source: https://www.avreo.com/CustomerSupport/PrivacyPolicy.html
+          http_status: 200
+          fetched: true
+          quote: "You can access, update and delete your personal information through your user account page."
+      note: Allows data subjects to access, correct and delete their data via account.
+  data_retention:
+    - evidence:
+        - source: https://www.avreo.com/CustomerSupport/PrivacyPolicy.html
+          http_status: 200
+          fetched: true
+          quote: "We will retain usage data for internal analysis purposes."
+      note: Retains usage data for internal analysis, no specific retention period disclosed.
+  subprocessors:
+    - evidence:
+        - source: https://www.avreo.com/CustomerSupport/PrivacyPolicy.html
+          http_status: 200
+          fetched: true
+          quote: "We employ third party companies and individuals (\"Service Providers\") to facilitate and make our website accessible to our visitors."
+      note: Uses third‑party service providers with access to personal data.
+  data_portability:
+    - evidence:
+        - source: https://www.avreo.com/CustomerSupport/PrivacyPolicy.html
+          http_status: 200
+          fetched: true
+          quote: "If you would like personal information that you provided to us to be transferred to another service provider of your choice, you may obtain a copy of such information from us in a structured, commonly used, machine‑readable format that supports re‑use."
+      note: Provides data portability in a machine‑readable format.
+  incident_notification:
+    - evidence:
+        - source: https://www.avreo.com/CustomerSupport/PrivacyPolicy.html
+          http_status: 200
+          fetched: true
+          quote: "We will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place."
+      note: No explicit breach notification clause found.
